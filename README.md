@@ -12,3 +12,28 @@ Vue.js directory structure with following packages/functionality.
 - **pages and component** structure
 
 This structure might be helpful in your large project/application, However Vue doesn't really restrict how you structure your code.
+
+### Structure
+```
+└── src
+    ├── App.vue
+    ├── assets
+    │   └── logo.png
+    ├── components
+    │   └── HelloWorld.vue
+    ├── main.js
+    ├── router.js
+    ├── services
+    │   ├── api.service.js
+    │   ├── storage.service.js
+    │   └── user.service.js
+    ├── store
+    │   ├── auth.module.js
+    │   └── index.js
+    └── views
+        ├── About.vue
+        ├── Home.vue
+        └── LoginView.vue
+```
+### Sources
+* [Structuring a Vue project — Authentication](https://medium.com/@zitko/structuring-a-vue-project-authentication-87032e5bfe16)
