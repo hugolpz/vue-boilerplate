@@ -17,23 +17,27 @@ This structure might be helpful in your large project/application, However Vue d
 ```
 └── src
     ├── App.vue
+    ├── main.js
+    ├── router
+    │   └── index.js
     ├── assets
     │   └── logo.png
-    ├── components
-    │   └── HelloWorld.vue
-    ├── main.js
-    ├── router.js
+    ├── filters
     ├── services
     │   ├── api.service.js
     │   ├── storage.service.js
     │   └── user.service.js
-    ├── store
+    ├── store (...)
     │   ├── auth.module.js
     │   └── index.js
+    ├── components
+    │   └── Header.vue
+    │   └── HelloWorld.vue
     └── views
-        ├── About.vue
         ├── Home.vue
-        └── LoginView.vue
+        ├── Login.vue
+        ├── MyPofile.vue
+        └── PageNotFound.vue
 ```
 ### Sources
 * [Structuring a Vue project — Authentication](https://medium.com/@zitko/structuring-a-vue-project-authentication-87032e5bfe16)
