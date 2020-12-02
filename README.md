@@ -18,17 +18,15 @@ This structure might be helpful in your large project/application, However Vue d
 └── src
     ├── App.vue
     ├── main.js
-    ├── router
-    │   └── index.js
     ├── assets
     │   └── logo.png
-    ├── filters
+    ├── filters (...)
     ├── services
     │   ├── api.service.js
     │   ├── storage.service.js
     │   └── user.service.js
     ├── store (...)
-    │   ├── auth.module.js
+    ├── router
     │   └── index.js
     ├── components
     │   └── Header.vue
